@@ -1,0 +1,171 @@
+header {
+    font-family:'Festive', cursive;
+    font-size: x-large;
+    padding: 0px 0px 0px;
+}
+
+nav ul {
+    background-color: #3b0e08;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section {
+    display: block;
+    background-color: #dccbbb;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.imagemPrincipal {
+    border: 3px solid white;
+    border-radius: 20em/20em;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    float: left;
+    margin: 10px 10px 10px 10px;
+    width: auto;
+    height:180px;
+}
+
+nav ul li a {
+    color: whitE;
+    text-decoration: none;
+    margin: 0px;
+}
+
+nav ul li a:hover {
+     color: black;
+    background-color:#dccbbb;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.piscapisca {
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.piscapisca:hover {
+    animation-name: colorido;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorido {
+    0% {
+        color: peachpuff;
+    }
+    25% {
+        color:tomato;
+    }
+    50% {
+        color: rgb(206, 113, 206);
+    }
+    75% {
+        color: rgb(79, 44, 139);
+    }
+    100% {
+        color:rgb(192, 159, 122);
+    }
+}
+
+
+.apresentação:active {
+    color: #3b0e08;
+}
+
+article {
+    font-family: ''Times New Roman', Times, serif';
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.856);
+    border-style: inset;
+    padding: 25px;
+    padding-left: 0em;
+    padding-right: 0em;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+.destaques {
+    display: inline-block;
+}
+
+.apresentação {
+    font-family: 'Festive', cursive;
+    color:#3b0e08;
+    text-decoration-style: wavy;
+    font-size: 30px;
+}
+
+.destaquefoto {
+    border: 2px solid #3b0e08;
+    border-radius: 10em/10em;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.destaquecardapio {
+    width: auto;
+    height: 700px;
+    border: 2px solid #3b0e08;
+    float: none;
+    display: inline;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+mark {
+    background-color: #3b0e08;
+}
+
+.note {
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer {
+    background-color: #3b0e08;
+    color: white;
+    border-top: 3px;
+    border-style: inset;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+}
